@@ -8,11 +8,26 @@ body {
     margin: 0;
 }
 
-.block_1 {
+.block_1, .block_2, .block_3, .block_4, .block_5 {
     background: #fff;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 300px;
+    width: 600px;
+    height: 200px;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+.block_6 {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    margin: 10px auto;
+    overflow: auto;
 }
