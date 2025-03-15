@@ -8,6 +8,23 @@ body {
     margin: 0;
 }
 
+h2 {
+    color: #d63384;
+}
+
+#prevBtn, #nextBtn {
+    padding: 10px 20px;
+    background-color: #d63384;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#prevBtn:hover, #nextBtn:hover {
+    background-color: #b82e6c;
+}
+
 .block {
     display: none; /* This hides all blocks by default*/
 }
@@ -27,4 +44,10 @@ body {
     margin: 10px auto;
     overflow: auto;
     word-wrap: break-word;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
