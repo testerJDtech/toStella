@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fbe7f0;
+    background-image: url('pink-backG.jpg'); /* This adds the image here*/
+    background-size: cover; /* Ensure the image covers the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px; /* Add padding to prevent content from touching the edges on small screens */
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    margin: 20px;
+}
+
+.you-are {
+    color: #d63384;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #d63384;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b82e6c;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .card {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .main-title {
+        font-size: 3em;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .main-title {
+        font-size: 2em;
+    }
+
+    button {
+        padding: 6px 12px;
+    }
+}
