@@ -15,6 +15,7 @@ body {
 
 .card {
     background: #fff;
+    background-image: url('paper-crumple.jpg');
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -35,7 +36,8 @@ h2 {
 button {
     padding: 10px 20px;
     margin-top: 20px;
-    background-color: #d63384;
+    /*background-color: #d63384;*/
+    background: linear-gradient(to right, #ff0844, #d63384);
     color: white;
     border: none;
     border-radius: 5px;
@@ -43,7 +45,7 @@ button {
 }
 
 button:hover {
-    background-color: #b82e6c;
+    background-color: #faa0c8;
 }
 
 /* Responsive design */
