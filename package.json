@@ -1,0 +1,22 @@
+{
+  "name": "tostella",
+  "version": "1.0.0",
+  "description": "This is going to be a digital encouragement card for my sister in Edinburgh called Stella Barbosa.",
+  "main": "buttonchange.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testerJDtech/toStella.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testerJDtech/toStella/issues"
+  },
+  "homepage": "https://github.com/testerJDtech/toStella#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.21"
+  }
+}
