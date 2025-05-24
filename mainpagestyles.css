@@ -37,7 +37,7 @@ button {
     padding: 10px 20px;
     margin-top: 20px;
     /*background-color: #d63384;*/
-    background: linear-gradient(to right, #ff0844, #d63384);
+    background: linear-gradient(to left, #ff0844, #d63384);
     color: white;
     border: none;
     border-radius: 5px;
