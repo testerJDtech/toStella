@@ -32,7 +32,7 @@ body {
     font-weight: bold;
 }
 
-#prevBtn, #nextBtn {
+#prevBtn, #nextBtn, #finishBtn {
     padding: 10px 20px;
     margin: 10px;
     background-color: #d63384;
@@ -42,8 +42,12 @@ body {
     cursor: pointer;
 }
 
-#prevBtn:hover, #nextBtn:hover {
+#prevBtn:hover, #nextBtn:hover, #finishBtn:hover {
     background-color: #b82e6c;
+}
+
+#finishBtn {
+    display: none;
 }
 
 .block {
