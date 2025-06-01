@@ -1,6 +1,6 @@
 let currentBlock = 0;
 const blocks = document.querySelectorAll('.block');
-const finishBtn = document.getElementById('finishBtn');
+const finishBtn = document.getElementsById('finishBtn');
 
 function showBlock(index) {
     blocks.forEach((block, i) => {
